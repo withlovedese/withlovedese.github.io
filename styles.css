@@ -2,7 +2,6 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Cookie';
 }
 body {
     display: flex;
@@ -42,7 +41,7 @@ li:not(:last-child) {
 
 .header { 
     font-size: 2.5em;
-    font-family: 'Playfair Display';
+    font-family: 'Cookie';
     display: flex;
     justify-content: center;
     align-content: center;
@@ -51,6 +50,6 @@ li:not(:last-child) {
 }
 
 .links {
-    font-family: 'Cookie';
+    font-family: 'Playfair Display';
     font-size: 1.5em;
 }
