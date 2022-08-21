@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+li {
+    display: inline;
+}
+
+html {
+    background: #fffbd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #f56481, #fffbd5, #baf8b4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f56481, #fffbd5, #baf8b4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: 400%;
+    animation: bg-animation 10s alternate infinite;
+}
+
+@keyframes bg-animation {
+    0% {background-position: left}
+    100% {background-position: right;}
+}
+
+ul {
+    padding: 0;
+}
+
+li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.header { 
+    font-size: 2.5em;
+    font-family: 'Rock 3D', cursive;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5em;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
